@@ -4,9 +4,8 @@ apples
 Vision
 ------
 
-# A Grails project
-
-# Or maybe a Clojure web service project?
+* A Grails project
+* Or maybe a Clojure web service project?
 
 Purpose
 -------
@@ -27,9 +26,9 @@ Method
 Git
 ---
 
-Hosted on GitHub
-workflow: http://scottchacon.com/2011/08/31/github-flow.html
-In particular, have Jenkins run all tests against every branch
-Deploy off Master
+* Hosted on GitHub
+* workflow: http://scottchacon.com/2011/08/31/github-flow.html
+* In particular, have Jenkins run all tests against every branch
+* Deploy off Master
 
 
