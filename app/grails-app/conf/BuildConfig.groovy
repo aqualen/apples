@@ -56,6 +56,9 @@ grails.project.dependency.resolution = {
   dependencies {
     // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
     // runtime 'mysql:mysql-connector-java:5.1.24'
+
+    // lkv was missing Spock support out-of-the-box
+    test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
   }
 
   plugins {
@@ -81,5 +84,10 @@ grails.project.dependency.resolution = {
     //runtime ":zipped-resources:1.0.1"
     //runtime ":cached-resources:1.1"
     //runtime ":yui-minify-resources:0.1.5"
+
+    // lkv was missing spock support, see GIA for why this is necessary:
+    test(":spock:0.7") {
+      exclude "spock-grails-support"
+    }
   }
 }
