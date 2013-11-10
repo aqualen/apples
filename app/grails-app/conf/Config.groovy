@@ -11,7 +11,7 @@
 //    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
 // }
 
-grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
+grails.project.groupId =  "com.ljs.apples" // change this to alter the default package name and Maven publishing destination
 
 // The ACCEPT header will not be used for content negotiation for user agents containing the following strings (defaults to the 4 major rendering engines)
 grails.mime.disable.accept.header.userAgents = ['Gecko', 'WebKit', 'Presto', 'Trident']
@@ -64,9 +64,12 @@ grails {
   }
 }
 
-// To switch, hit: http://localhost:8090/app/admin/features
+//
+// Feature Switches!!  Aka Toggles.
+// To switch at run-time, hit: http://localhost:8090/app/admin/features
+//
 features {
-  legacySidebar {
+  legacySidebar {  // we have the grails default home page, entirely
     enabled = false
   }
   legacyBody {

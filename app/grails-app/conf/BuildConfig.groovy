@@ -65,9 +65,9 @@ grails.project.dependency.resolution = {
     // plugins for the compile step
     compile ":scaffolding:2.0.0"
     compile ':cache:1.1.1'
-//    compile ':spring-security-core:2.0-RC2' // not this story
-//    compile ":feature-toggle:0.2"  // NPEs
-//    compile ":feature-flipper:0.3.2" // OK
+    //    compile ':spring-security-core:2.0-RC2' // not this story
+    //    compile ":feature-toggle:0.2"  // NPEs
+    //    compile ":feature-flipper:0.3.2" // OK
 
     // see https://github.com/aiten/grails-feature-switch/blob/master/README.markdown
     compile ":feature-switch:0.7" // Looks promising
