@@ -58,7 +58,7 @@ grails.project.dependency.resolution = {
     // runtime 'mysql:mysql-connector-java:5.1.24'
 
     // lkv was missing Spock support out-of-the-box
-    test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
+    //    test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
   }
 
   plugins {
@@ -66,7 +66,7 @@ grails.project.dependency.resolution = {
     build ":tomcat:7.0.42"
 
     // plugins for the compile step
-    compile ":scaffolding:2.0.0"
+    compile ":scaffolding:2.0.1"
     compile ':cache:1.1.1'
     //    compile ':spring-security-core:2.0-RC2' // not this story
     //    compile ":feature-toggle:0.2"  // NPEs
@@ -76,18 +76,18 @@ grails.project.dependency.resolution = {
     compile ":feature-switch:0.7" // Looks promising
 
     // plugins needed at runtime but not for compilation
-    runtime ":hibernate:3.6.10.1" // or ":hibernate4:4.1.11.1"
-    runtime ":database-migration:1.3.5"
+    runtime ":hibernate:3.6.10.3" // or ":hibernate4:4.1.11.2"
+    runtime ":database-migration:1.3.8"
     runtime ":jquery:1.10.2"
-    runtime ":resources:1.2"
+    runtime ":resources:1.2.1"
     // Uncomment these (or add new ones) to enable additional resources capabilities
     //runtime ":zipped-resources:1.0.1"
     //runtime ":cached-resources:1.1"
     //runtime ":yui-minify-resources:0.1.5"
 
     // lkv was missing spock support, see GIA for why this is necessary:
-    test(":spock:0.7") {
-      exclude "spock-grails-support"
-    }
+    //    test(":spock:0.7") {
+    //      exclude "spock-grails-support"
+    //    }
   }
 }
