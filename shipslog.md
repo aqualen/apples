@@ -1,6 +1,16 @@
 Stuff done
 ==========
 
+2013.03
+-------
+ * Overcome GRAILS-10768 by exploiting init method in BootStrap.groovy
+ * Race onwards, adding scaffolding (unsuccessful with wrapping in feature)
+
+2013.02
+-------
+ * Struggle mightily against 2.3.2 bugs.  Collapse in despair.
+ * File http://jira.grails.org/browse/GRAILS-10768
+
 2013.01
 -------
 
