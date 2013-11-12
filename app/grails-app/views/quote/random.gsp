@@ -2,10 +2,14 @@
 <head>
   <title>Random Quote</title>
 </head>
+
 <body>
-<div id="quote">
-  <q>${content}</q>
-  <p>${author}</p>
-</div>
+<feature:enabled feature="randomQuote">
+  <div id="quote">
+    <q>${quote.content}</q>
+
+    <p>${quote.author}</p>
+  </div>
+</feature:enabled>
 </body>
 </html>
