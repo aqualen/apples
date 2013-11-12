@@ -4,7 +4,12 @@ Stuff done
 2013.03
 -------
  * Overcome GRAILS-10768 by exploiting init method in BootStrap.groovy
+
  * Race onwards, adding scaffolding (unsuccessful with wrapping in feature)
+
+ * implement service class w/business logic.
+
+ * initiate unit testing with TestFor annotation
 
 2013.02
 -------
