@@ -1,6 +1,10 @@
 Stuff done
 ==========
 
+2013.04
+-------
+ * Upgrade to grails 2.3.3, fixes GRAILS-10768
+
 2013.03
 -------
  * Overcome GRAILS-10768 by exploiting init method in BootStrap.groovy
